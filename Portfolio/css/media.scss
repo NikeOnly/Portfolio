@@ -1,0 +1,117 @@
+@media (max-width: 960px) {
+    h1 {
+        display: none;
+    }
+
+    .skills__list {
+        width  : 48%;
+        margin : 0 auto;
+        padding: 0;
+    }
+
+    .content-carousel__article {
+        width  : 65%;
+        padding: 5px 2%;
+    }
+}
+@media (max-width: 768px) {
+
+  .skills__row {
+      flex-direction: column;
+  }
+
+    .contacts {
+        flex-direction: column;
+    }
+
+    .contacts__item {
+        display: none;
+    }
+
+    .contacts p {
+        margin-bottom: 5px;
+        text-align   : center;
+    }
+
+    .contacts__list {
+        justify-content: space-around;
+    }
+
+    .skills__list {
+        width: 80%;
+    }
+
+    .content-carousel__article {
+        width     : 35%;
+        text-align: center;
+    }
+
+    .content-carousel__article {
+        width      : 70%;
+        text-align : center;
+        margin-left: -37%;
+        left       : 50%;
+        line-height: 17px;
+    }
+
+    .content-article__header {
+        padding-bottom: 0;
+        display       : none;
+    }
+}
+@media (max-width: 480px) {
+    .contacts {
+        min-width: 320px;
+    }
+
+    .contacts__list {
+        letter-spacing: -0.03em;
+    }
+
+    .contacts-mobile {
+        display: none;
+    }
+
+    .contacts__link-mail {
+        display: block;
+    }
+
+    .skills {
+        width    : 100%;
+        min-width: 320px;
+    }
+
+    .skills__head {
+        min-width: 320px;
+    }
+
+    .skills__row {
+        margin-left: 0;
+    }
+
+    .skills__list {
+        width: 90%;
+    }
+
+    .fotorama__stage {
+        height: 300px;
+    }
+
+    .content {
+        min-width: 320px;
+    }
+
+    .content-carousel {
+        width : 95%;
+        margin: 0 auto;
+    }
+
+    .content-article__header {
+        display: none;
+    }
+
+    .content-carousel__article {
+        width      : 66%;
+        margin-left: -35%;
+    }
+}
